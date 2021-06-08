@@ -51,8 +51,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/name.png" alt="Sabilillah" width="200px" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Sabilillah</h1>
-      <p class="lead">Deadwood | Programming</p>
+      <h1 class="display-4 fw-bold">Sabilillah</h1>
+      <p class="lead">Deadwood | Programmer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -72,13 +72,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, pariatur.</p>
+          <div class="col-md-8">
+            <p>Lulusan SMK jurusan Bisnis Daring dan Pemasaran. Ingin membawa pengalaman ini ke ranah IT untuk mengejar perubahan karir jangka panjang dalam bidang Web Development. Memiliki pengalaman keterampilan analitis, pemecahan masalah, mahir komputer dan bisa menindaklanjuti proyek dari awal hingga akhir.</p>
           </div>
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium doloremque ab commodi, odio libero.</p>
           </div>
-        </div>
+        </div> -->
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -93,42 +93,62 @@
     <!-- Project -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row mb-4">
           <div class="col">
-            <h2>My Projects</h2>
+            <h2 class="text-center">My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <a href="https://zylcom.github.io/product-landing-page/" target="_blank" rel="noopener noreferrer"><img src="/img/projects/1.jpg" class="card-img-top" alt="Landing Page" /> </a>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://zylcom.github.io/product-landing-page/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
+                <img src="/img/projects/1.jpg" class="card-img-top" alt="Landing Page" /> 
+                <div class="card-body">
+                <p class="card-text text-center">
+                  Project membuat Product Landing Page
+                </p>
               </div>
+            </a>
+              
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <a href="https://zylcom.github.io/survey-form/" target="_blank" rel="noopener noreferrer"><img src="/img/projects/2.jpg" class="card-img-top" alt="Survey Form" /> </a>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://zylcom.github.io/survey-form/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
+                <img src="/img/projects/2.jpg" class="card-img-top" alt="Survey Form" />
+                <div class="card-body">
+                <p class="card-text text-center">
+                  Project membuat Survey Form
+                </p>
               </div>
+            </a>
+              
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <a href="https://zylcom.github.io/technical-documentation-page/" target="_blank" rel="noopener noreferrer"><img src="/img/projects/3.jpg" class="card-img-top" alt="Documentation Page" /></a>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://zylcom.github.io/technical-documentation-page/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
+                <img src="/img/projects/3.jpg" class="card-img-top" alt="Documentation Page" />
+                <div class="card-body">
+                <p class="card-text text-center">
+                  Project membuat Technical Documentation Page
+                </p>
               </div>
+            </a>
+              
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <a href="https://zylcom.github.io/tribute-page/" target="_blank" rel="noopener noreferrer"><img src="/img/projects/4.jpg" class="card-img-top" alt="Tribute Page" /> </a>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://zylcom.github.io/tribute-page/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
+                <img src="/img/projects/4.jpg" class="card-img-top" alt="Tribute Page" />
+                <div class="card-body">
+                <p class="card-text text-center">
+                  Project membuat Tribute Page
+                </p>
               </div>
+            </a>
+              
             </div>
           </div>
         </div>
@@ -155,7 +175,7 @@
           <div class="col-md-7">
             <form>
               <div class="mb-3">
-                <label for="name" class="form-label">Name :</label>
+                <label for="name" class="form-label">Nama :</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" />
               </div>
               <div class="mb-3">
@@ -163,17 +183,29 @@
                 <input type="text" class="form-control" id="email" aria-describedby="email" />
               </div>
               <div class="mb-3">
-                <label for="message" class="form-label">Message :</label>
+                <label for="message" class="form-label">Pesan :</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
           </div>
           <div class="col-md">
             <div class="d-flex flex-md-column">
-              <div class="p-2 mb-4 me-4"><i class="bi bi-facebook fs-2"></i><a href="https://www.facebook.com/sabil.sabil.7731247" target="_blank" class="fs-2 text-decoration-none link-dark">sabil</a></div>
-              <div class="p-2 mb-4 me-4"><i class="bi bi-instagram fs-2"></i><a href="http://www.instagram.com/sabil_272/" target="_blank" class="fs-2 text-decoration-none link-dark">@sabil_272</a></div>
-              <div class="p-2 mb-4 me-4"><i class="bi bi-github fs-2"></i><a href="https://github.com/zylcom" target="_blank" class="fs-2 text-decoration-none link-dark">zylcom</a></div>
+              <div class="p-2 mb-4 me-4">
+                <a href="https://www.facebook.com/sabil.sabil.7731247" target="_blank" class="fs-2 text-decoration-none link-dark">
+                  <i class="bi bi-facebook fs-2"> Sabil</i>
+                  </a>
+              </div>
+              <div class="p-2 mb-4 me-4">
+                <a href="http://www.instagram.com/sabil_272/" target="_blank" class="fs-2 text-decoration-none link-dark">
+                  <i class="bi bi-instagram fs-2"> @sabil_272</i>
+                </a>
+              </div>
+              <div class="p-2 mb-4 me-4">
+                <a href="https://github.com/zylcom" target="_blank" class="fs-2 text-decoration-none link-dark">
+                  <i class="bi bi-github fs-2"> Zylcom</i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
