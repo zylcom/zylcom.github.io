@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
   --dark-mode: #fff;
   --dark-mode-1: #b3b3b3;
@@ -15,11 +17,15 @@ html[data-color-mode="dark"] {
   --dark-mode-2: #404040;
   --dark-mode-3: #181818;
   --nav-dark-mode: #404040;
-  --project: #b3b3b3;
+  --project: #363441;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -46,6 +52,11 @@ html {
 
 #projects {
   background-color: var(--project);
+}
+
+#projects h2 {
+  color: var(--text-dark-mode);
+
 }
 
 .bout-end {
